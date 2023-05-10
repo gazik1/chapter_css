@@ -1,0 +1,19 @@
+:root{
+    --main-color:rgb(0, 4, 255);
+    --main-display:inline-block;
+    --main-color-inline:white;
+    --font-size:40px;
+}
+.content{
+    display: var(--main-display);
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 255, 0.301);
+}
+p{
+    font-size: var(--font-size);
+     margin: 0;
+    background-color: var(--main-color);
+    display: var(--main-display);
+    color: var(--main-color-inline);
+}
