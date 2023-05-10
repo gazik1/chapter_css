@@ -1,0 +1,55 @@
+.material-symbols-outlined{
+    transform: rotate(45deg);
+    font-variation-settings: 'FILL' 1;
+   
+}
+.rocket1{
+font-size: 24px;
+color: green;
+}
+.rocket2{
+font-size: 36px;
+color: yellow;
+}
+.rocket3{
+font-size: 48px;
+color: orange;
+}
+.rocket4{
+ font-size: 60px;
+ color: red;
+}
+.headers {
+    position: relative;
+      display: flex;
+      flex-direction: row-reverse;
+            background-color: black;
+            color: rgb(250, 247, 247);
+    
+        }
+    
+    
+    
+        .icon{
+            display: flex;
+            flex-direction: column;
+    
+            height: 1em;
+            width: 1em;
+         
+         
+          justify-content: flex-end;
+          row-gap: 3px;
+    
+          position: relative;
+          bottom: 1px;
+         
+         margin: 0 3px;
+        }
+    
+        .icon>div{
+            height: 2px;
+            width: 100%;
+            background-color: white;
+            border-radius: 0.7px;
+        }
