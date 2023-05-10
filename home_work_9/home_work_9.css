@@ -1,0 +1,15 @@
+*{
+    font-size: large;
+}
+.scrol{
+    overflow-y: scroll;
+    height: 300px;
+}
+.img_left{
+    float: left;
+    width: 200px;
+}
+.img_right{
+    float: right;
+    width: 200px;
+}
