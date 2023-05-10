@@ -1,0 +1,25 @@
+
+.color_blue{
+    color: blue;
+}
+
+p>h2, .red{
+    color: red;
+}
+div p{ 
+    color: blueviolet;
+}
+p~span{
+    color: rgb(95, 84, 84);
+    display: block;
+}
+div>p>span{
+    display: block;
+    color: brown;
+}
+.innodom[id="front"]{
+    color: aqua;
+}
+.innodom *{
+    color: blanchedalmond;
+}
